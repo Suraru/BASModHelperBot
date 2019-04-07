@@ -40,27 +40,33 @@ var conditions = [
 				  ["Don't use outdated mods. You can find a list of up to date mods here: <https://docs.google.com/spreadsheets/d/1YvSmj_BboxvpsBbwwFjWp6wtf7Ss0MOV7LCnzS-V4Lw/edit#gid=0>",
 				   "infinite loading"],
 				  // 3
+				  ["Make sure you place all of the modloader files inside of your B&S directory",
+				   "don't have blade and sorcery installed"],
+				  // 4
+				  ["The game directory is located by default at C:\Program Files (x86)\Steam\steamapps\common\Blade & Sorcery for steam. If you bought it from the oculus store, it will be in C:\Program Files\Oculus\Software\Software\",
+				   "directory"],
+				  // 5
 				  ["We can't import custom models yet, so no lightsaber mod is coming anytime soon.",
 				   "lightsaber"],
-				  // 4
+				  // 6
 				  ["You can't stop time without stopping yourself because of the way the physics engine works. No, a mod cannot fix this.",
 				   "time stop", "timestop", "stop time"],
-				  // 5
+				  // 7
 				  ["A few low quality virus scanners (McAffee, Microsoft, etc) have an issue with the modloader, so you need to add it as an exception. This video shows how to do that with Microsoft Defender <https://www.youtube.com/watch?v=xrh6EAwpka8>",
 				   "deletes itself", "deleting itself", "delete itself", "disappears", "gets removed", "virus", "trojan", "spyware", "adware"],
-				  // 6
+				  // 8
 				  ["Remove BASTelekinesisPlus from the mods folder then try running it again. You can move it back when it's done.",
 				   "mapped section"],
-				  // 7
+				  // 9
 				  ["You only need the mod loader to run mods with a .dll file, .json mods will work fine without it.",
 				   "need the modloader", "need the mod loader"],
-			      // 8
+			      // 10
 				  ["There's three guides showing you how to install a mod. Basically, if it contains only .json files, you put it in StreamingAssets. If it isn't in a folder when you download it, make a new folder inside of StreamingAssets with whatever name sounds right to you, and place the json inside of it. If the mod contains a .dll file, it goes in the mods folder, not streaming assets. Here's some links. <https://cdn.discordapp.com/attachments/516724791877828631/558022462382800969/image0.jpg> <https://docs.google.com/spreadsheets/d/1YvSmj_BboxvpsBbwwFjWp6wtf7Ss0MOV7LCnzS-V4Lw> <https://www.youtube.com/watch?v=xrh6EAwpka8>",
 				   "install"],
-				  // 9
+				  // 11
 				  ["<https://docs.google.com/spreadsheets/d/1YvSmj_BboxvpsBbwwFjWp6wtf7Ss0MOV7LCnzS-V4Lw/edit#gid=0>",
 				   "download", "link", "where is the", "where can I find the"],
-				  // 10
+				  // 12
 				  ["What do you need help with?",
 				   "help"]
 				];
