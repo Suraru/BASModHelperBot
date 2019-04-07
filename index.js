@@ -3,9 +3,6 @@ const fs = require('fs')
 const Discord = require("discord.js"); // Requires the npm package 'discord.js'.
 const client = new Discord.Client(); // Create an instance of Discord#Client
 
-// Bot made by Suraru
-// Coded by Thrasher Alpha
-
 client.on("ready", () => {
   // This event will run if the bot starts, and logs in, successfully.
   console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
@@ -90,4 +87,5 @@ client.on("message", async message => {
   if(output !== "") return message.reply(output);
 });
 
+client.login(process.env.BOT_TOKEN)
 client.login(process.env.BOT_TOKEN)
